@@ -6,11 +6,12 @@ function greet() {
     let age = parseInt(prompt ("How old are you?"));
     console.log(age);
 
-    let hasHadBirthday = parseInt(prompt ("Have you had a birthday yet this year?"));
+    let hasHadBirthday = confirm("Have you had a birthday yet this year?");
     console.log(hasHadBirthday);
     
     let currentYear = new Date().getFullYear();
 
+    let birthYear;
     if (hasHadBirthday) {
         console.log(birthYear = currentYear - age);
     } else {
