@@ -8,17 +8,14 @@ function greet() {
 
     let hasHadBirthday = parseInt(prompt ("Have you had a birthday yet this year?"));
     console.log(hasHadBirthday);
-
-    var bucket = 0
     
+    let currentYear = new Date().getFullYear();
+
     if (hasHadBirthday) {
         console.log(birthYear = currentYear - age);
     } else {
         console.log(birthYear = currentYear - age - 1);
-    }
-
-    let currentyear = new Date().getFullYear();
-     
+    };
 
     alert("You were born in" + birthYear);
 }
