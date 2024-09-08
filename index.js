@@ -1,7 +1,7 @@
 function greet() {
     let name = prompt ("What is your name?");
     console.log("Hello, " + name);
-    alert("Hello, Sally");
+    alert("Hello, " + name);
     
     let age = parseInt(prompt ("How old are you?"));
     console.log(age);
